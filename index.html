@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodMapp</title>
+    <link rel="stylesheet" href="./src/styles/global.css">
+    <link rel="stylesheet" href="./src/styles/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <script src="./src/js/menu.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#">
+                    <img src="./src/img/logo.png" alt="Logo no canto superioro esquerdo">
+                </a>
+            </div>
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="login.html">Inicio</a></li>
+                    <li><a href="index.html">Locais</a></li>
+                    <li><a href="pagina1.html">Produtos 1</a></li>
+                    <li><a href="pagina2.html">Produtos 2</a></li>
+                    <li><a href="pagina3.html">Produtos 3</a></li>
+                </ul>
+            </nav>
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div>
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="login.html">Inicio</a></li>
+                        <li><a href="index.html">Sobre</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="overlay-menu" id="overlay-menu"></div>
+        </div>
+    </header>
+
+    <main>
+        <div class="pesquisa">
+            <input placeholder="O que você procura?">
+            <button class="primary-button">Procurar</button>
+            <hr>
+        </div>
+        <section class="topo-do-site">
+            <div class="interface">
+                <div class="compra">
+                    <div class="img-topo-site">
+                        <img src="./src/img/pastel.jpeg" alt="">
+                    </div>
+                    <div class="flex">
+                        <p>Pastelaria Seu Nome</p>
+                        <h1>Salgados do dia</h1>
+                        R$1,99/u
+                    </div>
+                    <div class="botoes">
+                        <button class="btn btn-2 btn-sep icon-send" id="ver"><a href="pagina1.html">Ver</a></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="topo-do-site">
+            <div class="interface">
+                <div class="compra">
+                    <div class="img-topo-site">
+                        <img src="./src/img/confeitaria.jpeg" alt="">
+                    </div>
+                    <div class="flex">
+                        <p>Borcelle Confeitaria</p>
+                        <h1>Sonhos de leite ninho</h1>
+                        R$2,99/u
+                    </div>
+                    <div class="botoes">
+                        <button class="btn btn-2 btn-sep icon-send" id="ver"><a href="pagina2.html">Ver</a></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="topo-do-site">
+            <div class="interface">
+                <div class="compra">
+                    <div class="img-topo-site">
+                        <img src="./src/img/refri.jpeg" alt="">
+                    </div>
+                    <div class="flex">
+                        <p>SuperMarquet</p>
+                        <h1>Refrigerantes perto da validade</h1>
+                        R$4,99/u
+                    </div>
+                    <div class="botoes">
+                        <button class="btn btn-2 btn-sep icon-send" id="ver"><a href="pagina3.html">Ver</a></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo-footer">
+                        <img src="./src/img/logo.png" alt="">
+                    </div>
+                    <div class="btn-social">
+                        <a href="" target="_blank" class="icon-button"><i class="bi bi-instagram"></i></a>
+                        <a href="" target="_blank" class="icon-button"><i class="bi bi-facebook"></i></a>
+                        <a href="" target="_blank" class="icon-button"><i class="bi bi-phone"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="line-footer borda">
+                <p><i class="bi bi-envelope-fill"></i><a href="mailto:contato@bruno.com.br" target="_blank">
+                        foodmapp@gmail.com</a></p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

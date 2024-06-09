@@ -1,0 +1,47 @@
+input {
+    background: #EDEDED;
+    border: 1px solid #D5D8DE;
+    border-radius: 3rem;
+    width: 38vh;
+    height: 4.3vh;
+    padding: .5vh 1.3vh;
+    font-size: 1.5vh;
+}
+
+button {
+    padding: .8rem 0;
+    height: 6vh;
+    width: 40vh;
+    border-radius: 3vh;
+    text-transform: uppercase;
+    font-size: 1.6vh;
+    font-weight: 800;
+}
+
+.primary-button {
+    background: linear-gradient(90deg, #353B3C 0%, #0097B2 100%);
+    color: white;
+    border: 0px solid black;
+}
+
+.secondary-button {
+    border: 2px solid #0097B2;
+    color: #0097B2;
+}
+
+.btn-social {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.icon-button {
+    display: flex;
+    align-items: center;
+    background: lightgrey;
+    border-radius: 12px;
+    color: black;
+    font-size: 3vh;
+    padding: .1rem .5rem; 
+    height: auto;
+}
